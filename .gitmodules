@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/minahdev/com.pace.api.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/minahdev/com.pace.www.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/minahdev/com.pace.docs.git
