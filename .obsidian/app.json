@@ -19,7 +19,8 @@
     "**/*.scss",
     ".DS_Store",
     ".env*",
-    "**/__pycache__"
+    "**/__pycache__",
+    "**/__pycache__/**"
   ],
   "showUnsupportedFiles": false
 }
