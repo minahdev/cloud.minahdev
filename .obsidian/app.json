@@ -1,6 +1,5 @@
 {
   "userIgnoreFilters": [
-    "__pycache__",
     "**/*.py",
     "alembic",
     "node_modules",
@@ -19,6 +18,8 @@
     "**/*.css",
     "**/*.scss",
     ".DS_Store",
-    ".env*"
-  ]
+    ".env*",
+    "**/__pycache__"
+  ],
+  "showUnsupportedFiles": false
 }

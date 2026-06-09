@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d73d733d2f6d565b",
+        "id": "2f7245c1d949f1f3",
         "type": "tabs",
         "children": [
           {
-            "id": "d634f24626e6f2ad",
+            "id": "76f837d0cb787671",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 446.5
   },
   "right": {
     "id": "036bce2623a04bde",
@@ -178,8 +178,18 @@
   },
   "active": "f0b160bc2823b36c",
   "lastOpenFiles": [
-    "minahai/apps/titanic/_docs/__init__.py",
-    "minahai/apps/titanic/_docs",
-    "_harness"
+    ".git/objects/fd/3152d5ed53ad866806c614df9d763feb4fc246",
+    ".git/objects/fd/23b08098a9a036fe2c940cbfd55dfbc1d86270",
+    ".git/objects/f5/015db894b5288b3738a051d660cefa55550e77",
+    ".git/objects/eb/b3a472e6dc1dc6c2f0392fbbaa8ff8257f1c6d",
+    ".git/objects/e9/d4262228139027e7cadac95252cf28da79a586",
+    ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    ".git/objects/dc/cc745152e7aa8841db4b7d0b772628e3c02717",
+    ".git/objects/c8/38df4396bd07d9cb4e35810324b30af8c652bb",
+    ".git/objects/cf/85f6b5f6210f8e421041d3538733c7fa381a3e",
+    ".git/objects/c4/ee3be4c15bde48c5903022a23a991957036126",
+    ".git/objects/b8/19aaefec792f9fe1083cbd42dd4f157560499c",
+    "minahai/apps/secom/_docs/README.md",
+    "minahai/apps/titanic/_docs/README.md"
   ]
 }
