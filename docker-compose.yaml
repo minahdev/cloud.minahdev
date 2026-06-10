@@ -1,0 +1,22 @@
+services:
+  # --- 백엔드 서비스 ---
+  backend:
+    container_name: minah_backend
+    build:
+      context: ./minahai     # minahai 폴더 안에 있는 Dockerfile을 읽어라
+    ports:
+      - "8000:8000"          # 내 컴퓨터의 8000포트와 도커의 8000포트를 연결
+    env_file:
+      - ./minahai/.env       # 백엔드 환경변수 파일 로드
+
+  # --- 프론트엔드 서비스 ---
+  frontend:
+    container_name: minah_frontend
+    build:
+      context: ./minahview   # minahview 폴더 안에 있는 Dockerfile을 읽어라
+    ports:
+      - "3000:3000"          # 내 컴퓨터의 3000포트와 도커의 3000포트를 연결
+    env_file:
+      - ./minahview/.env.local # 프론트엔드 환경변수 파일 로드
+    depends_on:
+      - backend
