@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f7245c1d949f1f3",
+        "id": "caf8f0796ba3a0bd",
         "type": "tabs",
         "children": [
           {
-            "id": "76f837d0cb787671",
+            "id": "48f704ab34df7056",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
         ]
@@ -176,21 +176,43 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "f0b160bc2823b36c",
+  "active": "48f704ab34df7056",
   "lastOpenFiles": [
-    ".git/logs/refs/heads/main",
-    ".git/logs/refs/remotes/origin",
-    ".git/refs/heads/main",
-    ".git/refs/remotes/origin",
-    ".git/objects/fd/3152d5ed53ad866806c614df9d763feb4fc246",
-    ".git/objects/fd/23b08098a9a036fe2c940cbfd55dfbc1d86270",
-    ".git/objects/f9/173b235d345e70ab8ecc599f29541243355adf",
-    ".git/objects/f5/e435f44b872b2c2e5bedc5d82b9af31fdfbbdb",
-    ".git/objects/f5/015db894b5288b3738a051d660cefa55550e77",
-    ".git/objects/eb/b3a472e6dc1dc6c2f0392fbbaa8ff8257f1c6d",
-    ".git/objects/e9/d4262228139027e7cadac95252cf28da79a586",
-    "_harness/config.yaml.md",
-    "minahai/apps/secom/_docs/README.md",
-    "minahai/apps/titanic/_docs/README.md"
+    "minahview/app/api/titanic/smith/chat/route.ts.tmp.20772.7e05b25d86ca",
+    "minahai/apps/titanic/adapter/inbound/api/schemas/crew_smith_captain_schema.py.tmp.20772.aff25da61feb",
+    "minahai/apps/titanic/tests/adapter/outbound/__pycache__/__init__.cpython-313.pyc",
+    "minahai/apps/titanic/tests/adapter/outbound/__pycache__",
+    "minahai/apps/titanic/app/use_cases/crew_smith_captain_interactor.py.tmp.20772.429fd2601073",
+    "minahai/apps/titanic/app/use_cases/crew_smith_captain_interactor.py.tmp.20772.f85689479254",
+    "minahai/apps/titanic/adapter/outbound/pg/crew_smith_captain_pg_repository.py.tmp.20772.2b1a45fee161",
+    "minahai/apps/titanic/app/dtos/crew_smith_captain_dto.py.tmp.20772.ade6ab37b034",
+    "minahview/app/api/titanic/smith/chat/route.ts",
+    "minahview/app/api/titanic/smith/chat/route.ts.tmp.20772.9079e1ff2828",
+    "minahview/app/api/titanic/smith/chat",
+    "minahview/CLAUDE.md",
+    "minahview/node_modules/js-tokens/README.md",
+    "minahview/node_modules/vaul/LICENSE.md",
+    "minahview/node_modules/eventemitter3/README.md",
+    "minahview/node_modules/next/license.md",
+    "minahview/node_modules/cmdk/LICENSE.md",
+    "minahview/node_modules/cmdk/README.md",
+    "minahview/node_modules/@date-fns/tz/CHANGELOG.md",
+    "minahview/node_modules/recharts/CONTRIBUTING.md",
+    "minahai/_claude/CLAUDE.md",
+    "minahai/apps/titanic/_docs/CLAUDE.md",
+    "minahai/README.md",
+    "minahview/node_modules/react-hook-form/README.md",
+    "minahview/node_modules/@date-fns/tz/README.md",
+    "minahview/node_modules/@hookform/resolvers/README.md",
+    "cursor.md",
+    "vault/Backend/clean_architecture.md",
+    "CLAUDE.md",
+    "vault/Backend/PACE_ERD.md",
+    "minahview/_claude/REACT_RULES.md",
+    "minahai/apps/titanic/_docs/TITANIC_ERD.md",
+    "minahai/apps/titanic/_docs/james_fastapi_init.md",
+    "vault/Frontend/REACT_RULES.md",
+    "vault/Backend/TITANIC_ERD.md",
+    "vault/Backend/PACE_FULL_ERD.md"
   ]
 }

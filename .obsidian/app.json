@@ -20,7 +20,11 @@
     ".DS_Store",
     ".env*",
     "**/__pycache__",
-    "**/__pycache__/**"
+    "**/__pycache__/**",
+    "pycache",
+    "/*.pyc",
+    "/__pycache__/",
+    "minahai/__pycache__/"
   ],
   "showUnsupportedFiles": false
 }
