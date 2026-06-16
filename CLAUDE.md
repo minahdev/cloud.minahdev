@@ -11,9 +11,8 @@ Claude·Cursor 등 **코딩 보조 LLM**이 이 저장소에서 작업을 이어
 
 | 영역 | 파일 |
 |------|------|
-| **백엔드** (FastAPI · 헥사고날 · DB · secom · inbody) | [minahai/_claude/CLAUDE.md](minahai/_claude/CLAUDE.md) |
+| **백엔드** (FastAPI · 헥사고날 · DB · secom · inbody · titanic) | [minahai/CLAUDE.md](minahai/CLAUDE.md) |
 | **프론트엔드** (Next.js · API 연동) | [minahview/CLAUDE.md](minahview/CLAUDE.md) |
-| **Titanic 앱** (캐릭터 네이밍 · 새 기능 체크리스트) | [minahai/apps/titanic/_docs/CLAUDE.md](minahai/apps/titanic/_docs/CLAUDE.md) |
 | ERD | `docs/DevOps/Backend/PACE_FULL_ERD.md` |
 | Cursor 하네스 | `AGENTS.md`, `.cursorrules`, `CURSOR.md` |
 
@@ -29,8 +28,7 @@ Claude·Cursor 등 **코딩 보조 LLM**이 이 저장소에서 작업을 이어
 
 | 작업 경로 | 읽을 문서 |
 |-----------|-----------|
-| `minahai/` 전반 | [minahai/_claude/CLAUDE.md](minahai/_claude/CLAUDE.md) |
-| `minahai/apps/titanic/` | [minahai/apps/titanic/_docs/CLAUDE.md](minahai/apps/titanic/_docs/CLAUDE.md) |
+| `minahai/` 전반 (titanic 포함) | [minahai/CLAUDE.md](minahai/CLAUDE.md) |
 | DB·ERD | `docs/DevOps/Backend/PACE_FULL_ERD.md` |
 | `minahview/` | [minahview/CLAUDE.md](minahview/CLAUDE.md) |
 
@@ -78,7 +76,9 @@ Claude·Cursor 등 **코딩 보조 LLM**이 이 저장소에서 작업을 이어
 
 ```
 cloud.minahdev/
+├── CLAUDE.md                # ← 지금 이 파일 (최상단)
 ├── minahai/                 # FastAPI 백엔드 — 단일 진입점 (main.py)
+│   ├── CLAUDE.md            # 백엔드 규칙
 │   ├── apps/
 │   │   ├── secom/           # 회원·스케줄 — 헥사고날
 │   │   ├── inbody/          # 커뮤니티·훈련일지·공지 등
@@ -86,6 +86,7 @@ cloud.minahdev/
 │   └── core/
 │       └── matrix/oracle_database.py   # DB SSOT
 ├── minahview/               # Next.js 프론트엔드
+│   └── CLAUDE.md            # 프론트엔드 규칙
 └── docs/                    # ERD·스택별 규칙
 ```
 
