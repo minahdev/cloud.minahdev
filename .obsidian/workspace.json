@@ -178,10 +178,11 @@
   },
   "active": "ea05c7ba7ed17800",
   "lastOpenFiles": [
-    "minahai/CLAUDE.md",
+    "minahai/_claude/entityrules.md",
     "vault/minahai/CLAUDE.md",
-    "vault/minahview/CLAUDE.md",
     "minahview/CLAUDE.md",
+    "minahai/CLAUDE.md",
+    "vault/minahview/CLAUDE.md",
     "vault/minahview/CLAUDE.md.tmp.17352.fb91d417fa9d",
     "vault/minahai/CLAUDE.md.tmp.17352.b48c2aca4196",
     "CLAUDE.md.tmp.17352.b76a41849c5f",
@@ -212,7 +213,6 @@
     "minahview/node_modules/recharts/CONTRIBUTING.md",
     "minahai/README.md",
     "minahview/node_modules/react-hook-form/README.md",
-    "minahview/node_modules/@date-fns/tz/README.md",
-    "minahview/node_modules/@hookform/resolvers/README.md"
+    "minahview/node_modules/@date-fns/tz/README.md"
   ]
 }
