@@ -9,12 +9,14 @@ Claude·Cursor 등 **코딩 보조 LLM**이 이 저장소에서 작업을 이어
 
 ## 문서 맵
 
-| 영역 | 파일 |
-|------|------|
-| **백엔드** (FastAPI · 헥사고날 · DB · secom · inbody · titanic) | [minahai/CLAUDE.md](minahai/CLAUDE.md) |
-| **프론트엔드** (Next.js · API 연동) | [minahview/CLAUDE.md](minahview/CLAUDE.md) |
-| ERD | `docs/DevOps/Backend/PACE_FULL_ERD.md` |
-| Cursor 하네스 | `AGENTS.md`, `.cursorrules`, `CURSOR.md` |
+| 영역 | 규칙 파일 | 문서 디렉터리 |
+|------|-----------|---------------|
+| **공통** | 본 파일 | `_docs/` |
+| **백엔드** (FastAPI · 헥사고날 · DB · secom · inbody · titanic) | [minahai/CLAUDE.md](minahai/CLAUDE.md) | `minahai/_docs/` |
+| **프론트엔드** (Next.js · API 연동) | [minahview/CLAUDE.md](minahview/CLAUDE.md) | `minahview/_docs/` |
+| **Flutter** | — | `minahflutter/_docs/` |
+| ERD | `docs/DevOps/Backend/PACE_FULL_ERD.md` | — |
+| Cursor 하네스 | `AGENTS.md`, `.cursorrules`, `CURSOR.md` | — |
 
 ---
 
@@ -77,8 +79,10 @@ Claude·Cursor 등 **코딩 보조 LLM**이 이 저장소에서 작업을 이어
 ```
 cloud.minahdev/
 ├── CLAUDE.md                # ← 지금 이 파일 (최상단)
+├── _docs/                   # 공통 문서 (Obsidian 설정, 프로젝트 전반 참조)
 ├── minahai/                 # FastAPI 백엔드 — 단일 진입점 (main.py)
 │   ├── CLAUDE.md            # 백엔드 규칙
+│   ├── _docs/               # 백엔드 전용 문서 (ERD, API 설계 등)
 │   ├── apps/
 │   │   ├── secom/           # 회원·스케줄 — 헥사고날
 │   │   ├── inbody/          # 커뮤니티·훈련일지·공지 등
@@ -86,7 +90,10 @@ cloud.minahdev/
 │   └── core/
 │       └── matrix/oracle_database.py   # DB SSOT
 ├── minahview/               # Next.js 프론트엔드
-│   └── CLAUDE.md            # 프론트엔드 규칙
+│   ├── CLAUDE.md            # 프론트엔드 규칙
+│   └── _docs/               # 프론트엔드 전용 문서 (화면 설계, API 연동 등)
+├── minahflutter/            # Flutter 앱
+│   └── _docs/               # Flutter 전용 문서
 └── docs/                    # ERD·스택별 규칙
 ```
 
