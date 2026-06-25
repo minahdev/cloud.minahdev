@@ -24,7 +24,8 @@
     "pycache",
     "/*.pyc",
     "/__pycache__/",
-    "minahai/__pycache__/"
+    "minahai/__pycache__/",
+    "flutter/"
   ],
   "showUnsupportedFiles": false
 }

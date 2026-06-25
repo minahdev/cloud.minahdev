@@ -178,6 +178,7 @@
   },
   "active": "94658116606f0a59",
   "lastOpenFiles": [
+    "flutter/flutter/docs/engine/impeller/docs/xcode_frame_capture.md",
     "flutter/flutter/docs/contributing/Tree-hygiene.md",
     "minahai/apps/titanic/_docs/CLAUDE.md",
     "flutter/flutter/docs/infra/Autosubmit-bot.md",
@@ -212,7 +213,6 @@
     "minahview/node_modules/cmdk/LICENSE.md",
     "minahview/node_modules/cmdk/README.md",
     "minahview/node_modules/@date-fns/tz/CHANGELOG.md",
-    "minahview/node_modules/recharts/CONTRIBUTING.md",
-    "minahai/README.md"
+    "minahview/node_modules/recharts/CONTRIBUTING.md"
   ]
 }
