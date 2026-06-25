@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 4456703
       }
+    },
+    {
+      "query": "path:minahflutter  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.999999999999989,
+  "scale": 0.3628873693012069,
   "close": false
 }

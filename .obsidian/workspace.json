@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "588e4d8d57c520fb",
+        "id": "93c3c78fc29d9633",
         "type": "tabs",
         "children": [
           {
-            "id": "ea05c7ba7ed17800",
+            "id": "94658116606f0a59",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -176,8 +176,11 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "ea05c7ba7ed17800",
+  "active": "94658116606f0a59",
   "lastOpenFiles": [
+    "flutter/flutter/docs/contributing/Tree-hygiene.md",
+    "minahai/apps/titanic/_docs/CLAUDE.md",
+    "flutter/flutter/docs/infra/Autosubmit-bot.md",
     "minahai/_claude/entityrules.md",
     "vault/minahai/CLAUDE.md",
     "minahview/CLAUDE.md",
@@ -187,7 +190,6 @@
     "vault/minahai/CLAUDE.md.tmp.17352.b48c2aca4196",
     "CLAUDE.md.tmp.17352.b76a41849c5f",
     "CLAUDE.md.tmp.17352.f979f35821c2",
-    "minahai/apps/titanic/_docs/CLAUDE.md",
     "CLAUDE.md",
     "minahai/apps/titanic/_docs/CLAUDE.md.tmp.17352.4af230118bdb",
     "cloud.minahdev/minahai/CLAUDE.md",
@@ -211,8 +213,6 @@
     "minahview/node_modules/cmdk/README.md",
     "minahview/node_modules/@date-fns/tz/CHANGELOG.md",
     "minahview/node_modules/recharts/CONTRIBUTING.md",
-    "minahai/README.md",
-    "minahview/node_modules/react-hook-form/README.md",
-    "minahview/node_modules/@date-fns/tz/README.md"
+    "minahai/README.md"
   ]
 }

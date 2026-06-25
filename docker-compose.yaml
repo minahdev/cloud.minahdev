@@ -20,3 +20,16 @@ services:
       - ./minahview/.env.local # 프론트엔드 환경변수 파일 로드
     depends_on:
       - backend
+
+  n8n:
+    container_name: minah_n8n
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    restart: unless-stopped
+
+volumes:
+  n8n_data:
+    external: true
