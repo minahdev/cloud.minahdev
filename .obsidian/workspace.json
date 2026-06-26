@@ -176,8 +176,10 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "94658116606f0a59",
+  "active": "f0b160bc2823b36c",
   "lastOpenFiles": [
+    "flutter/flutter/bin/cache/engine.stamp.tmp.4048",
+    "flutter/flutter/bin/cache/engine.stamp.tmp.12088",
     "flutter/flutter/docs/engine/impeller/docs/xcode_frame_capture.md",
     "flutter/flutter/docs/contributing/Tree-hygiene.md",
     "minahai/apps/titanic/_docs/CLAUDE.md",
@@ -200,7 +202,6 @@
     "minahai/apps/titanic/_docs/minahai",
     "minahview/CLAUDE.md.tmp.22020.900cef11a38a",
     "minahai/apps/titanic/_docs/titanic-algorithm.md",
-    "minahai/apps/titanic/_docs/titanic-alg",
     "vault/CLAUDE.md",
     "minahai/_claude/CLAUDE.md",
     "vault/Backend/PACE_ERD2.md",
@@ -212,7 +213,6 @@
     "minahview/node_modules/next/license.md",
     "minahview/node_modules/cmdk/LICENSE.md",
     "minahview/node_modules/cmdk/README.md",
-    "minahview/node_modules/@date-fns/tz/CHANGELOG.md",
-    "minahview/node_modules/recharts/CONTRIBUTING.md"
+    "minahview/node_modules/@date-fns/tz/CHANGELOG.md"
   ]
 }
