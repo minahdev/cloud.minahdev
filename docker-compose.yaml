@@ -10,6 +10,7 @@ services:
       - ./minahai/.env
     environment:
       - N8N_EMAIL_WEBHOOK_URL=http://n8n:5678/webhook/send-email
+      - N8N_TELEGRAM_WEBHOOK_URL=http://n8n:5678/webhook/send-telegram
       - OLLAMA_URL=http://host.docker.internal:11434/api/chat
       - DATABASE_URL=postgresql+psycopg://minah_user:minah_password@pgvector:5432/minah_db?sslmode=disable
     extra_hosts:
